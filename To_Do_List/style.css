@@ -1,0 +1,120 @@
+div#tableMAIN {
+    width: 650px;
+    margin: auto;
+    margin-top: 28px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    position: relative;
+}
+
+input.names {
+    width: 48.33%;
+    padding: 5px;
+    font-size: 16px;
+    margin-bottom: 22px;
+    margin-right: 10px;
+    margin-top: 24px;
+}
+
+input.numbers {
+    width: 41.33%;
+    padding: 5px;
+    font-size: 16px;
+}
+
+input.emails {
+    width: 48.33%;
+    padding: 5px;
+    font-size: 16px;
+    margin-right: 40px;
+}
+button.delete {
+    width: 57px;
+    height: 32px;
+    transform: translateY(-1px);
+    background: #7a7a7a;
+    color: #fff;
+    border-radius: 12%;
+    margin-right: 20px;
+}
+button.add {
+    width: 99px;
+    height: 32px;
+    transform: translateY(-1px);
+    background: mediumseagreen;
+    color: #fff;
+    border-radius: 12%;
+    margin-right: 20px;
+}
+
+button.Clear {
+    background: red;
+    width: 94px;
+    height: 32px;
+    color: #fff;
+    border-radius: 12%;
+    margin-right: 20px;
+    font-size: 18px;
+    margin-top: 16px;
+}
+.tableWrap {
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 21px;
+    font-family: sans-serif;
+    
+}
+th {
+    padding: 5px;
+}
+td {
+    text-align: center;
+    padding: 5px;
+}
+.iFrameWrap{
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 1200px;
+    margin-top: 26px;
+    margin-left: -40px;
+}
+div#inputForm {
+    width: 500px;
+    float: left;
+    height: 200px;
+    margin-right: 50px;
+    transform: translateY(92px);
+    background: black;
+    padding: 9px;
+}
+div#tabil {
+    width: 551px;
+    display: inline-block;
+    transform: translateY(85px);
+    padding: 5px;
+    box-sizing: border-box;
+    
+}
+div#MainDIV {
+    width: 1150px;
+    margin: auto;
+}
+tr.backgroundTbl {
+    background: mediumturquoise;
+    color: blue;
+}
+button {
+    background: red;
+    display: inline-block;
+    color: #fff;
+    font-size: 15px;
+    line-height: 20px;
+}
+input {
+    text-transform: uppercase;
+}

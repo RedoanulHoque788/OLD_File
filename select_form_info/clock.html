@@ -1,0 +1,139 @@
+<! DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Clock</title>
+		<style>
+			div#form {
+				width: 400px;
+				margin: auto;
+				background: mediumseagreen;
+				text-align: center;
+				padding-top: 30px;
+				padding-bottom: 30px;
+				color: #fff;
+				margin-top: 50px;
+				border-radius: 8px;
+				font-family: sans-serif;
+				overflow: hidden;
+			}
+			select#LOCATION:focus {
+					background: black;
+					color: #fff;
+				}
+				select#THANA:focus {
+				}
+				select#Country:focus {
+					background: black;
+					color: #fff;
+					padding: 5px;
+				}
+				select#Country {
+					background: yellow;
+					padding: 5px;
+				}
+				select#LOCATION {
+					background: yellow;
+				}
+				select#population {
+					background: yellow;
+				}
+				select#WORK {
+					background: yellow;
+				}
+				select#population:focus {
+					background: black;
+					color: #fff;
+				}
+				select#WORK:focus {
+					background: black;
+					color: #fff;
+				}
+				input#clickRESET {
+					display: block;
+					float: right;
+					margin-right: 10px;
+					margin-top: 5px;
+					margin-bottom: 20px;
+				}
+		</style>
+	</head>
+<body>
+
+	<div id="form">
+		<div class="SelectCountry">
+			<h2>Select country</h2>
+			<select id="Country">
+				<option value="" >Select one</option>
+				<option value="bd" >Bangladesh</option>
+				<option value="am" >America</option>
+				<option value="ja" >Japan</option>
+				<option value="aus" >Australia</option>
+			</select>	
+		</div>
+		
+		<div class="SelectDivision" style="display: none";>
+			<h2>Select Division</h2>
+			<select id="Division">
+			<option value="" >Select one</option>
+				<option value="dh" >Dhaka</option>
+				<option value="ctg" >Chittagong</option>
+				<option value="raj" >Rajshahi</option>
+				<option value="khul" >Khulna</option>
+				<option value="syl" >Sylet</option>
+				<option value="bor" >Borisal</option>
+			</select>	
+		</div>
+		
+		
+		
+		<div class="dhk_District" style="display: none" >
+			<h2>Select District</h2>
+			<select id="Town">
+				<option value="" >Select one</option>
+				<option value="dhk" >Dhaka</option>
+				<option value="dinaj" >Dinajpur</option> 
+			</select>	
+		</div>
+		
+		<div class="ctg_District" style="display: none" >
+			<h2>Select District</h2>
+			<select id="DISTRICT">
+				<option value="" >Select one</option>
+				<option value="cox" >Cox's Bazar</option>
+				<option value="ram" >Ramu</option> 
+			</select>
+		</div>
+		
+		<div class="Cox_inner" style="display: none" >
+			<h2>Select Locations</h2>
+			<select id="locations">
+				<option value="" >Select one</option>
+				<option value="Ramu" >Ramu</option>
+				<option value="Teknaf" >Teknaf</option> 
+			</select>	
+			
+		</div>
+		<div class="MyLocation" style="display:none" >
+				<h2>Select Your Locations</h2>
+				<select id="setALERT">
+					<option value="" >Select One</option>
+					<option value="GhP" >Ghat para</option>
+					<option value="KonPara" >Konar Para</option>
+					<option value="ChairmanPara" >Chairman Para</option> 
+				</select>	
+			</div>
+		
+		<input type="reset" id="clickRESET" value="Send" />
+	</div>
+	
+	
+	
+
+	
+	
+	
+	<script type="text/javascript" src="app.js"></script>
+
+</body>
+</html>
